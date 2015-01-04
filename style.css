@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400italic,400|Raleway:700);
+body {
+	height: 100%;
+	margin: 0px;
+	font-family: 'Merriweather';
+	background-color: #000;
+}
+.title {
+	padding-top: 15%;
+	text-align: center;
+	font-size: 50px;
+	color: #FFF;
+	font-family: 'Raleway';
+	vertical-align: middle;
+	letter-spacing: 2px;
+}
+.tagline {
+	letter-spacing: 2px;
+	text-align: center;
+	color: #FFF;
+	font-style: italic;
+}
+#back {
+	opacity: 0.6;
+	position: absolute;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	background-image: url(back.jpg);
+	background-size: cover;
+}
